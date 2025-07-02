@@ -8,7 +8,7 @@ import json
 
 app = FastAPI()
 
-WEBHOOK_SECRET = "your_webhook_secret_here"  # Replace with your Tawk.to webhook secret key
+WEBHOOK_SECRET = "6b8e00c470a34f4d5d7b2fe0f73631a3217612eb2beed1675dfd82f624c306b3691344462b0ebbd7dbb2f2168455cf19"  # Replace with your Tawk.to webhook secret key
 
 # Utility function to verify Tawk.to webhook signature
 def verify_signature(raw_body: bytes, signature_header: str) -> bool:
